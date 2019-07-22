@@ -38,7 +38,7 @@ app.post("/", function(req, res) {
     url: "https://us3.api.mailchimp.com/3.0/lists/2523c24068",
     method: "POST",
     headers: {
-      "Authorization": "jason1 8791565d173f1b30feefc131844057d1-us3"
+      "Authorization": "jason1 75dee2ca02a282f9d94843840221a3ad-us3"
     },
     body: jsonData
   };
@@ -67,7 +67,7 @@ app.post("/failure", function(req, res){
 app.listen(process.env.PORT || 3000, function() {
   console.log("server is running on port 3000");
 });
-//API  key
-//8791565d173f1b30feefc131844057d1-us3
-//unique id for audience
+//lisID
 //2523c24068
+//API key
+//75dee2ca02a282f9d94843840221a3ad-us3
