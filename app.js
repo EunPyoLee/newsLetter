@@ -35,12 +35,7 @@ app.post("/", function(req, res) {
   var jsonData = JSON.stringify(data);
 
   var options = {
-    url: "https://us3.api.mailchimp.com/3.0/lists/2523c24068",
-    method: "POST",
-    headers: {
-      "Authorization": "jason1 75dee2ca02a282f9d94843840221a3ad-us3"
-    },
-    body: jsonData
+    //for security reason, mailchimp api keys and user information is deleted
   };
   request(options, function(error, response, body) {
     if(error){
